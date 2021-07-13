@@ -6,7 +6,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 
 ## Coisas
 Para efeitos de calculo, consideramos a carga máxima como 150mA, de modo a dar margem de segurança.  
-A fonte primeiro reduz a tensão de entrada que possui 127 * raiz(2) = 180v de pico para uma tensão com 18v de pico, por meio de um [transformador](https://produto.mercadolivre.com.br/MLB-1421624491-transformador-ent-110-42-0-saida-9v-visor-controle-v-a-esab-_JM#position=2&search_layout=stack&type=item&tracking_id=16a9e152-d051-4175-86a8-733030dc07ff). Ele foi escolhido do [catalogo](http://www.transformadoreslider.com.br/catalogo/catalogo.pdf) por ser capaz de realizar a trasnformação desejada e aguentar 150mA de corrente.
+A fonte primeiro reduz a tensão de entrada que possui 127 * raiz(2) = 180v de pico para uma tensão com 18v de pico, por meio de um [transformador](https://produto.mercadolivre.com.br/MLB-1251924135-transformador-trafo-99v-200ma-bivolt-eletronica-_JM#reco_item_pos=2&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=559de26e-339f-4593-91cf-1d10a5a540eb). Ele foi escolhido do [catalogo](http://www.transformadoreslider.com.br/catalogo/catalogo.pdf) por ser capaz de realizar a trasnformação desejada e aguentar 150mA de corrente.
 
 ![Imagen da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/tensaoAlternada127v.png)
 
