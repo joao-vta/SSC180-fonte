@@ -11,7 +11,7 @@ A fonte primeiro reduz a tensão de entrada que possui 127 * raiz(2) = 180v de p
 ![Imagen da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/tensaoAlternada127v.png)
 
 Em seguida, a tensão é retificada por meio de uma ponte de diodos. Isso garante que a tensão que passe seja positiva. Os diodos tem que aguentar 200mA de corrente e 20V de tensão, atendidos pelo modelo [1N4001](https://www.baudaeletronica.com.br/diodo-1n4001.html).  
-Cada diodo 1N4001 corta 0,7V, e a corrente passa por exatamente dois diodos a cada momento na ponto de diodo. Como consequência, a tensão de entrada de 20V cai para 18,6V.  
+Cada diodo 1N4001 corta 0,7V, e a corrente passa por exatamente dois diodos a cada momento na ponto de diodo. Como consequência, a tensão de entrada de 20V de pico cai para 18,6V de pico.  
 
 ![Imagen da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/cmpletaRetificada.png)
 
