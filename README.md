@@ -18,5 +18,5 @@ Cada diodo 1N4001 corta 0,7V, e a corrente passa por exatamente dois diodos a ca
 A tensão então passa por um filtro capacitivo que reduz a a amplitude da onda.  
 Determinamos uma amplitudade máxima de 15% da tensão original, e fizemos o calculo da seguinte forma:  
 
-![Imagen da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/ripple.png) ![Imagen da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/contas.png)
+![Imagen da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/ripple.png) ![Imagen das contas](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/contas.png = 200px)
 
