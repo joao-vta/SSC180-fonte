@@ -34,4 +34,4 @@ Determinando a tensão mínima como sendo 13V, por segurança, achamos a capacit
 
 Como 425uF não é um valor comercial, escolhemos um [capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html) de 470uF, capaz de aguentar a voltagem necessária.
 
-[circuito]( (temporario)
+[circuito](http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoERjDzJpktGkg0aaGpOt8dcHAhq00CV30SS7MPr7HrhcGwNEVYAN3FeeUjAyghkOLMtShgEMU0wBMDJBFDOTRzBQqlcqDEwPkkUOMrY8tqC0s1RTgDovFlo0QAnEGtKTX6SkRAzVgBjYezS4pTYOGwclGhg9Uw+BEw3PhJITHtINk5iwckBvL6zqeLZ1gATQMy44OyQO-oAMwBDAFcAGwALvdHlkOlJVFV3t9-kCHmD2rUnlI3p9foDgWCMoispDUTCxENBsQ6pwhsVLJ1Sj0+sSibIkXF4KwAF40ymCCnVZFQtEAxjM+gAO3o3QJxKR+C5ogB1EyXJ4cSycS4YBgaEk6zQlQ2AjMNAgMEwh3VmGQeAwJDN+1VlB5+M4CqCskdzTELo5tIujvJxNuvUdWEE3qpo1EAHspPsApRsJBfFQDFoqhq+qwgA) (temporario)
