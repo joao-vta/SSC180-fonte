@@ -20,3 +20,4 @@ Determinando a tensão minima como sendo 13V, por segurança, achamos a capacita
 
 ![Imagen da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/ripple.png) ![Imagen das contas](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/contasExp.png)
 
+Como 425uF não é um valor comercial, escolhemos um [capacitor](https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html) de 470uF, capaz de aguentar a voltagem necessária.
