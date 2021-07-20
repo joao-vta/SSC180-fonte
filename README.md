@@ -8,7 +8,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 
 | Nome | Especificação Básica | Valor |
 | :---: | :---: | :---: |
-| [transformador]{1] | Entrada: 110V-220V / Saída: 9V+9V 200 MA | R$28,99 |
+| [transformador] | Entrada: 110V-220V / Saída: 9V+9V 200 MA | R$28,99 |
 | Capacitor | 470uF / 25V | R$0,43 |
 | Diodo | 50V / 1A | R$0,14 |
 
@@ -37,4 +37,4 @@ Como 425uF não é um valor comercial, escolhemos um [capacitor](https://www.bau
 [circuito](http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoERjDzJpktGkg0aaGpOt8dcHAhq00CV30SS7MPr7HrhcGwNEVYAN3FeeUjAyghkOLMtShgEMU0wBMDJBFDOTRzBQqlcqDEwPkkUOMrY8tqC0s1RTgDovFlo0QAnEGtKTX6SkRAzVgBjYezS4pTYOGwclGhg9Uw+BEw3PhJITHtINk5iwckBvL6zqeLZ1gATQMy44OyQO-oAMwBDAFcAGwALvdHlkOlJVFV3t9-kCHmD2rUnlI3p9foDgWCMoispDUTCxENBsQ6pwhsVLJ1Sj0+sSibIkXF4KwAF40ymCCnVZFQtEAxjM+gAO3o3QJxKR+C5ogB1EyXJ4cSycS4YBgaEk6zQlQ2AjMNAgMEwh3VmGQeAwJDN+1VlB5+M4CqCskdzTELo5tIujvJxNuvUdWEE3qpo1EAHspPsApRsJBfFQDFoqhq+qwgA) (temporario)
 
 
-[1]: https://produto.mercadolivre.com.br/MLB-1251924135-transformador-trafo-99v-200ma-bivolt-eletronica-_JM#reco_item_pos=2&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=559de26e-339f-4593-91cf-1d10a5a540eb
+[transformador]: https://produto.mercadolivre.com.br/MLB-1251924135-transformador-trafo-99v-200ma-bivolt-eletronica-_JM#reco_item_pos=2&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=559de26e-339f-4593-91cf-1d10a5a540eb
