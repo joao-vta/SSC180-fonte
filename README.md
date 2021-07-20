@@ -8,7 +8,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 
 | Nome | Especificação Básica | Valor |
 | :---: | :---: | :---: |
-| Transformador | Entrada: 110V-220V / Saída: 9V+9V 200 MA | R$28,99 |
+| [transformador] | Entrada: 110V-220V / Saída: 9V+9V 200 MA | R$28,99 |
 | Capacitor | 470uF / 25V | R$0,43 |
 | Diodo | 50V / 1A | R$0,14 |
 
