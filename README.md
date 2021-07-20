@@ -28,7 +28,7 @@ Cada diodo 1N4001 corta 0,7V, e a corrente passa por exatamente dois diodos a ca
 ![Forma de onda após ponte de diodos](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/cmpletaRetificada.png)
 
 A tensão então passa por um filtro capacitivo que reduz a amplitude da onda, e deixando o formato de onda mais estável. A razão entre os valores máximos e mínimos da onda após filtragem é definida como o valor de ripple.
-Determinando a tensão mínima como sendo 13V, por segurança, achamos a capacitância:
+Determinando a tensão mínima como sendo 15V, por segurança, achamos a capacitância:
 
 ![Forma de onda após filtro capacitivo](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/ripple.png) ![Imagen das contas](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/contasExp.png)
 
