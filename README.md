@@ -37,6 +37,8 @@ Como 472uF não é um valor comercial, escolhemos um [capacitor] de 470uF, próx
 
 Em seguida, usamos um diodo zener para regular a tensão, removendo a oscilação da onda descrita acima. Ele gera uma tensão de referência, porém não pode receber corrente demais. Tivemos que usar então um transistor bipolar NPN para controlar o fluxo de corrente. Como o transistor consome 0.7V, o zener precisa de ao mínimo 12 + 0.7 = 12.7V. O valor comercial mais próxmo é 13v, portanto esse foi o [zener] que usamos.
 
+![Imagem do zener](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/tzener.png)
+
 O zener tem um limite de potência baixo, portanto o colocamos em série com um resitor de 1KΩ. Ele precisa de ao menos 13V para gerar a tensão de referência, portanto o resistor não pode consumir mais que 18.6 - 13 = 5.6V no pico e 15 - 13 = 2V no mínimo.
 
 [circuito](http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoYSHy4wwyEzWJ9JYBJkmZ9OmhbCT92OHwrqR0Pr7HrhcGwNEVYAN3FeeUjAyghkOLRKZJ0EMU1jSk1JBFDObNypQpy88AsUOPLNUU4wKsES2P9ZaLwW1VEAYyLBAobC5Ng4bExwNGgZBBoaMBpkGmsCaZ04Nk5GzRoXJs4tykaDgdYAE0DMoJCpEGP6ADMAQwBXABsAFxOzhIupVUlru6ebw+bR+sjqf3OfxuDxe71OIIy5Uh-xhQN2202xB2ID2PRxWMaogATjiMYJcec4vBWDRZAAvegAO3oROYdAgYGgmDwC0kGAsGHgkiYo32Q3gEslWNm4FYdNJ+0KFK+fwZzNZs1Yr2oxgq1CSeriXDw0GQfGwXgEU0gU2QfxgyDQmAEJjsaF8jvmUjgKMB704PDiwX1WVKgcCZkuNRDeNxhNYJPDWEE4cJICSrCwskjepzLl48XgOl8FElZYgACV6ABnACW1de90ZnXoYnwerclXtCfx7WzBIGRTgYhz52VyVYAHsimoFNR9AZtjB7VccjjWEA) temporario
