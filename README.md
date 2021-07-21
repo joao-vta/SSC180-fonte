@@ -12,6 +12,8 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 | [Capacitor] | 470uF / 25V | R$0,43 |
 | [Diodo] | 50V / 1A | R$0,14 |
 | [zener] | 13V / 1W | R$0.20 |
+| [potenciometro] | 10KΩ | R$1.61 |
+| [transitor] |  hfe = 110 | R$0.17 |
 
 ## Fonte
 Para efeitos de cálculo, consideramos a carga máxima como 150mA, de modo a dar margem de segurança.  
@@ -35,14 +37,25 @@ Determinando a tensão mínima como sendo 15V, por segurança, achamos a capacit
 
 Como 472uF não é um valor comercial, escolhemos um [capacitor] de 470uF, próximo o bastante e capaz de aguentar a voltagem necessária.
 
-Em seguida, usamos um diodo zener para regular a tensão, removendo a oscilação da onda descrita acima. Ele gera uma tensão de referência, porém não pode receber corrente demais. Tivemos que usar então um transistor bipolar NPN para controlar o fluxo de corrente. Como o transistor consome 0.7V, o zener precisa de ao mínimo 12 + 0.7 = 12.7V. O valor comercial mais próxmo é 13v, portanto esse foi o [zener] que usamos.
+Em seguida, usamos um diodo zener para regular a tensão, removendo a oscilação da onda descrita acima. Ele gera uma tensão de referência, porém não pode receber corrente demais. Tivemos que usar então um [transistor] bipolar NPN para controlar o fluxo de corrente. Como o transistor consome 0.7V, o zener precisa de ao mínimo 12 + 0.7 = 12.7V. O valor comercial mais próxmo é 13v, portanto esse foi o [zener] que usamos.
 
-![Imagem do zener](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/tzener.png)
+![Imagem do zener](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/zener.png)
 
 O zener tem um limite de potência baixo, portanto o colocamos em série com um resitor de 1KΩ. Ele precisa de ao menos 13V para gerar a tensão de referência, portanto o resistor não pode consumir mais que 18.6 - 13 = 5.6V no pico e 15 - 13 = 2V no mínimo.
 
+Calculando a resistência para alcançar isso, temos 1K/x = 2/15 -> x = 7,5KΩ. Usamos um [potenciometro] para controlar quanta dessa tensão chega ao transitor. O menor valor comercial que atendeu isso foi 10KΩ.
+
+Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamento efetivo da fonte. Ele ficou em série com um resitor de 5K para não queimar.
+
+Circuit resultante:
+
+
+
+
 [circuito](http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoYSHy4wwyEzWJ9JYBJkmZ9OmhbCT92OHwrqR0Pr7HrhcGwNEVYAN3FeeUjAyghkOLRKZJ0EMU1jSk1JBFDObNypQpy88AsUOPLNUU4wKsES2P9ZaLwW1VEAYyLBAobC5Ng4bExwNGgZBBoaMBpkGmsCaZ04Nk5GzRoXJs4tykaDgdYAE0DMoJCpEGP6ADMAQwBXABsAFxOzhIupVUlru6ebw+bR+sjqf3OfxuDxe71OIIy5Uh-xhQN2202xB2ID2PRxWMaogATjiMYJcec4vBWDRZAAvegAO3oROYdAgYGgmDwC0kGAsGHgkiYo32Q3gEslWNm4FYdNJ+0KFK+fwZzNZs1Yr2oxgq1CSeriXDw0GQfGwXgEU0gU2QfxgyDQmAEJjsaF8jvmUjgKMB704PDiwX1WVKgcCZkuNRDeNxhNYJPDWEE4cJICSrCwskjepzLl48XgOl8FElZYgACV6ABnACW1de90ZnXoYnwerclXtCfx7WzBIGRTgYhz52VyVYAHsimoFNR9AZtjB7VccjjWEA) temporario
 
+[transistor]: https://www.baudaeletronica.com.br/transistor-npn-bc548.html
+[potenciometro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
 [zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
 [transformador]: https://produto.mercadolivre.com.br/MLB-1337849996-transformador-terminais-110v220v-saida-20v-20v-200ma-_JM#position=7&search_layout=stack&type=item&tracking_id=9352b21c-9685-440a-ba31-5a1ffce72d90
 [diodo]: https://www.baudaeletronica.com.br/diodo-1n4001.html
