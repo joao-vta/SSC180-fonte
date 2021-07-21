@@ -15,7 +15,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 | [potenciometro] | 10KΩ | R$1.61 |
 | [transistor] |  hfe = 110 | R$0.17 |
 | [resistor5k] | 5KΩ | R$0.10 |
-| LED | verde |  R$1.00 |
+| [LED] | verde |  R$1.00 |
 
 ## Fonte
 Para efeitos de cálculo, consideramos a carga máxima como 150mA, de modo a dar margem de segurança.  
@@ -64,3 +64,4 @@ Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamen
 [transformador]: https://produto.mercadolivre.com.br/MLB-1337849996-transformador-terminais-110v220v-saida-20v-20v-200ma-_JM#position=7&search_layout=stack&type=item&tracking_id=9352b21c-9685-440a-ba31-5a1ffce72d90
 [diodo]: https://www.baudaeletronica.com.br/diodo-1n4001.html
 [capacitor]: https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html
+[LED]: https://produto.mercadolivre.com.br/MLB-1800876382-led-verde-difuso-5mm-50-unidades-eletrnica-arduino-_JM?searchVariation=76603521533#searchVariation=76603521533&position=4&search_layout=grid&type=item&tracking_id=8625509a-484e-4233-9323-3cc655db2cc2
