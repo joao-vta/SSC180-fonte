@@ -8,9 +8,10 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 
 | Nome | Especificação Básica | Valor |
 | :---: | :---: | :---: |
-| [transformador] | Entrada: 110V-220V / Saída: 9V+9V 200 mA | R$35,00 |
+| [transformador] | Entrada: 110V-220V / Saída: 20V 200 mA | R$35,00 |
 | [Capacitor] | 470uF / 25V | R$0,43 |
 | [Diodo] | 50V / 1A | R$0,14 |
+| [zener] | 13V / 1W | R$0.20 |
 
 ## Fonte
 Para efeitos de cálculo, consideramos a carga máxima como 150mA, de modo a dar margem de segurança.  
@@ -34,9 +35,13 @@ Determinando a tensão mínima como sendo 15V, por segurança, achamos a capacit
 
 Como 472uF não é um valor comercial, escolhemos um [capacitor] de 470uF, próximo o bastante e capaz de aguentar a voltagem necessária.
 
+Em seguida, usamos um zener para regular a tensão, removendo a oscilação da onda descrita acima. Para isso, usamos um diodo zener. Ele irá gerar uma tensão de referência, porém não pode receber corrente demais, portanto usamos também um transistor bipolar NPN para controlar o fluxo de corrente. Como o transistor consome 0.7V, o zener precisa de ao mínimo 12 + 0.7 = 12.7V. O valor comercial mais próxmo é 13v, portanto esse foi o [zener] que usamos.
+
+O zener tem um limite de potência baixo, portanto o colocamos em série com um resitor de 1KΩ. Ele precisa de ao menos 13V para gerar a tensão de referência, portanto o resistor não pode consumir mais que 3V. A corrente máxima por ele fica 3/1K = 3mA.
+
 [circuito](http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoYSHy4wwyEzWJ9JYBJkmZ9OmhbCT92OHwrqR0Pr7HrhcGwNEVYAN3FeeUjAyghkOLRKZJ0EMU1jSk1JBFDObNypQpy88AsUOPLNUU4wKsES2P9ZaLwW1VEAYyLBAobC5Ng4bExwNGgZBBoaMBpkGmsCaZ04Nk5GzRoXJs4tykaDgdYAE0DMoJCpEGP6ADMAQwBXABsAFxOzhIupVUlru6ebw+bR+sjqf3OfxuDxe71OIIy5Uh-xhQN2202xB2ID2PRxWMaogATjiMYJcec4vBWDRZAAvegAO3oROYdAgYGgmDwC0kGAsGHgkiYo32Q3gEslWNm4FYdNJ+0KFK+fwZzNZs1Yr2oxgq1CSeriXDw0GQfGwXgEU0gU2QfxgyDQmAEJjsaF8jvmUjgKMB704PDiwX1WVKgcCZkuNRDeNxhNYJPDWEE4cJICSrCwskjepzLl48XgOl8FElZYgACV6ABnACW1de90ZnXoYnwerclXtCfx7WzBIGRTgYhz52VyVYAHsimoFNR9AZtjB7VccjjWEA) temporario
 
-
+[zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
 [transformador]: https://produto.mercadolivre.com.br/MLB-1337849996-transformador-terminais-110v220v-saida-20v-20v-200ma-_JM#position=7&search_layout=stack&type=item&tracking_id=9352b21c-9685-440a-ba31-5a1ffce72d90
 [diodo]: https://www.baudaeletronica.com.br/diodo-1n4001.html
 [capacitor]: https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html
