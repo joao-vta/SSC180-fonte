@@ -13,7 +13,9 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 | [Diodo] | 50V / 1A | R$0,14 |
 | [zener] | 13V / 1W | R$0.20 |
 | [potenciometro] | 10KΩ | R$1.61 |
-| [transitor] |  hfe = 110 | R$0.17 |
+| [transistor] |  hfe = 110 | R$0.17 |
+| [resistor5k] | 5KΩ | R$0.10 |
+| LED | verde |  R$1.00 |
 
 ## Fonte
 Para efeitos de cálculo, consideramos a carga máxima como 150mA, de modo a dar margem de segurança.  
@@ -54,6 +56,8 @@ Circuit resultante:
 
 [circuito](http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoYSHx1g++zDWR9M6sMlNokjSbDtpIaU30nI0aY5iZg6GD5gsXVhcGwNEVYAN3FeeXjwyghkFJctShgEMU1rSk1JBGjOQuKpVSKS8A8UFNrNUU4wxLxZRNEAYwqonqlyrNg4bExwNF1cTEgaSBtLGz5eGDg2TklMSXCaSQLogBNw-Ijezb36ADMAQwBXABsAF1YDvLTjvtOLm4ent9bao4+VzujwObUO-1egK+j0420oVRANGI-WiACdETstpijil4KwaLIAF70AB29FRzDoEDA0EweBoCEkGA8GHgkiYo3hQ3gPN5yIC4FYhIx8PKcLqUhAxLJFICrHu1GsEp4KVeKS4WHQUyRFjQkhoU0sOnWATAkmC2AtFDNdB2lDOQO+nBVbxdjTEbsESN6TWoGQR4oRonRLqwghdQZALg9SqO2DgNU2vu9EvFOLEiQR602QbEgfK2ZRUDERk2hVU7rWFcEhfd6NrNY2EsoFDgrGsOabAKbWZADuhjFu9FBmR0kFWIq2yPdWFkKYR8dV6r08B0SAASvQAM4ASy390uJM69FYAHsKmoFNR9AZlvBLOaaHwSDQzUg73ALARkEUtDnNjQrBAA) temporario
 
+[LED]: https://lista.mercadolivre.com.br/led-verde-5mm
+[resistor5k]: https://pt.aliexpress.com/item/1005002041218051.html?aem_p4p_detail=202107211533282465907643956900009483945
 [transistor]: https://www.baudaeletronica.com.br/transistor-npn-bc548.html
 [potenciometro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
 [zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
