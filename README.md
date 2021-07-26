@@ -63,6 +63,7 @@ Montagem do circuito propriamente dita.
 Montagem do circuito com componentes reais em 2d
 
 ![Circuito PCB do Eagle](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/pcbModel.png)
+
 Simulação do circuito e placa em 3D
 Parte da frente da placa
 ![3DFrente](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dFrente.png)
