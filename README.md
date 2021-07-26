@@ -77,7 +77,7 @@ Simulação com componentes 3D
 [LED]: https://lista.mercadolivre.com.br/led-verde-5mm
 [resistor5k]: https://pt.aliexpress.com/item/1005002041218051.html?aem_p4p_detail=202107211533282465907643956900009483945
 [transistor]: https://www.baudaeletronica.com.br/transistor-npn-bc548.html
-[potenciômetro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
+[potenciometro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
 [zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
 [transformador]: https://produto.mercadolivre.com.br/MLB-1337849996-transformador-terminais-110v220v-saida-20v-20v-200ma-_JM#position=7&search_layout=stack&type=item&tracking_id=9352b21c-9685-440a-ba31-5a1ffce72d90
 [diodo]: https://www.baudaeletronica.com.br/diodo-1n4001.html
