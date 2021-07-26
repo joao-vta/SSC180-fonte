@@ -56,6 +56,19 @@ Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamen
 
 [circuito]: http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoYSHx1g++zDWR9M6sMlNokjSbDtpIaU30nI0aY5iZg6GD5gsXVhcGwNEVYAN3FeeXjwyghkFJctShgEMU1rSk1JBGjOQuKpVSKS8A8UFNrNUU4wxLxZRNEAYwqonqlyrNg4bExwNF1cTEgaSBtLGz5eGDg2TklMSXCaSQLogBNw-Ijezb36ADMAQwBXABsAF1YDvLTjvtOLm4ent9bao4+VzujwObUO-1egK+j0420oVRANGI-WiACdETstpijil4KwaLIAF70AB29FRzDoEDA0EweBoCEkGA8GHgkiYo3hQ3gPN5yIC4FYhIx8PKcLqUhAxLJFICrHu1GsEp4KVeKS4WHQUyRFjQkhoU0sOnWATAkmC2AtFDNdB2lDOQO+nBVbxdjTEbsESN6TWoGQR4oRonRLqwghdQZALg9SqO2DgNU2vu9EvFOLEiQR602QbEgfK2ZRUDERk2hVU7rWFcEhfd6NrNY2EsoFDgrGsOabAKbWZADuhjFu9FBmR0kFWIq2yPdWFkKYR8dV6r08B0SAASvQAM4ASy390uJM69FYAHsKmoFNR9AZlvBLOaaHwSDQzUg73ALARkEUtDnNjQrBAA
 
+Após a montagem, é o momento de simular o circuito no Eagle, para visualização do modelo 3d da placa.
+Montagem do circuito propriamente dita.
+![Circuito no Eagle](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/eagleCircuit.png)
+Montagem do circuito com componentes reais em 2d
+![Circuito PCB do Eagle](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/pcbModel.png)
+Simulação do circuito e placa em 3D
+Parte da frente da placa
+![3DFrente](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dFrente.png)
+Parte traseira da placa
+![3DCostas](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dCostas.png)
+Simulação com componentes 3D
+![3DComponentes](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dComponentes.png)
+
 [LED]: https://lista.mercadolivre.com.br/led-verde-5mm
 [resistor5k]: https://pt.aliexpress.com/item/1005002041218051.html?aem_p4p_detail=202107211533282465907643956900009483945
 [transistor]: https://www.baudaeletronica.com.br/transistor-npn-bc548.html
