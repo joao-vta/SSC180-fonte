@@ -68,6 +68,7 @@ Parte da frente da placa
 ![3DFrente](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dFrente.png)
 Parte traseira da placa
 ![3DCostas](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dCostas.png)
+
 Simulação com componentes 3D
 ![3DComponentes](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dComponentes.png)
 
