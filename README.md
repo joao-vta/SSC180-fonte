@@ -45,7 +45,7 @@ Em seguida, usamos um diodo zener para regular a tensão, removendo a oscilaçã
 
 O zener tem um limite de potência baixo, portanto o colocamos em série com um resitor de 1KΩ. Ele precisa de ao menos 13V para gerar a tensão de referência, portanto o resistor não pode consumir mais que 18.6 - 13 = 5.6V no pico e 15 - 13 = 2V no mínimo.
 
-Calculando a resistência para alcançar isso, temos 1K/x = 2/15 -> x = 7,5KΩ. Usamos um [potenciometro] para controlar quanta dessa tensão chega ao transitor. O menor valor comercial que atendeu isso foi 10KΩ.
+Calculando a resistência para alcançar isso, temos 1K/x = 2/15 -> x = 7,5KΩ. Usamos um [potenciômetro] para controlar quanta dessa tensão chega ao transitor. O menor valor comercial que atendeu isso foi 10KΩ.
 
 Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamento efetivo da fonte. Ele ficou em série com um resitor de 5K para não queimar.
 
@@ -58,8 +58,10 @@ Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamen
 
 Após a montagem, é o momento de simular o circuito no Eagle, para visualização do modelo 3d da placa.
 Montagem do circuito propriamente dita.
+
 ![Circuito no Eagle](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/eagleCircuit.png)
 Montagem do circuito com componentes reais em 2d
+
 ![Circuito PCB do Eagle](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/pcbModel.png)
 Simulação do circuito e placa em 3D
 Parte da frente da placa
@@ -72,7 +74,7 @@ Simulação com componentes 3D
 [LED]: https://lista.mercadolivre.com.br/led-verde-5mm
 [resistor5k]: https://pt.aliexpress.com/item/1005002041218051.html?aem_p4p_detail=202107211533282465907643956900009483945
 [transistor]: https://www.baudaeletronica.com.br/transistor-npn-bc548.html
-[potenciometro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
+[potenciômetro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
 [zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
 [transformador]: https://produto.mercadolivre.com.br/MLB-1337849996-transformador-terminais-110v220v-saida-20v-20v-200ma-_JM#position=7&search_layout=stack&type=item&tracking_id=9352b21c-9685-440a-ba31-5a1ffce72d90
 [diodo]: https://www.baudaeletronica.com.br/diodo-1n4001.html
