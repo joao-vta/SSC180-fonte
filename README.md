@@ -13,7 +13,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 | [Diodo] | 50V / 1A | R$0,14 |
 | [zener] | 13V / 1W | R$0.20 |
 | [potenciometro] | 10KΩ | R$1.61 |
-| [transistor] |  hfe = 110 | R$0.17 |
+| [transistor] |  NPN | R$0.17 |
 | [resistor1k] | 1KΩ | R$0.10 |
 | [LED] | verde |  R$1.00 |
 
