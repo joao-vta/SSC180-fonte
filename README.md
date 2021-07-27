@@ -49,7 +49,7 @@ Calculando a resistência para alcançar isso, temos 1K/x = 2/15 -> x = 7,5KΩ. 
 
 Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamento efetivo da fonte. Ele ficou em série com um resitor de 1K para não queimar.
 
-[circuito] resultante:
+Simulação do [circuito] resultante:
 
 ![Imagem do circuito](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/circuito.png)
 
