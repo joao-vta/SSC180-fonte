@@ -14,7 +14,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 | [zener] | 13V / 1W | R$0.20 |
 | [potenciometro] | 10KΩ | R$1.61 |
 | [transistor] |  hfe = 110 | R$0.17 |
-| [resistor5k] | 5KΩ | R$0.10 |
+| [resistor1k] | 1KΩ | R$0.10 |
 | [LED] | verde |  R$1.00 |
 
 ## Fonte
@@ -58,7 +58,7 @@ Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamen
 
 https://www.youtube.com/watch?v=Rm_5-BxY0Ds
 
-[circuito]: http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoYSHx1g++zDWR9M6sMlNokjSbDtpIaU30nI0aY5iZg6GD5gsXVhcGwNEVYAN3FeeXjwyghkFJctShgEMU1rSk1JBGjOQuKpVSKS8A8UFNrNUU4wxLxZRNEAYwqonqlyrNg4bExwNF1cTEgaSBtLGz5eGDg2TklMSXCaSQLogBNw-Ijezb36ADMAQwBXABsAF1YDvLTjvtOLm4ent9bao4+VzujwObUO-1egK+j0420oVRANGI-WiACdETstpijil4KwaLIAF70AB29FRzDoEDA0EweBoCEkGA8GHgkiYo3hQ3gPN5yIC4FYhIx8PKcLqUhAxLJFICrHu1GsEp4KVeKS4WHQUyRFjQkhoU0sOnWATAkmC2AtFDNdB2lDOQO+nBVbxdjTEbsESN6TWoGQR4oRonRLqwghdQZALg9SqO2DgNU2vu9EvFOLEiQR602QbEgfK2ZRUDERk2hVU7rWFcEhfd6NrNY2EsoFDgrGsOabAKbWZADuhjFu9FBmR0kFWIq2yPdWFkKYR8dV6r08B0SAASvQAM4ASy390uJM69FYAHsKmoFNR9AZlvBLOaaHwSDQzUg73ALARkEUtDnNjQrBAA
+[circuito]: http://falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcA2aAOMB2ALGXyEw1sESQFJyRsBmcgUwFowwAoAdxEezRAE5kKfoMgcuPEACZJ2IdNmiAKnJkhksgVGpRoYSHy4wwFTDTDJMySJlKZjSGPBYE+aGQXV8ExOjD7+xdWFwbA0RVgA3cV55aODKCCtwNEpUnQQxTXNKTUkEcM5c-KlVPILwPkkUBMr4wNlYvAbVUQBjErCOqWLU2DhsTGToSRo7EZo0Gkk+IklBx0g2TjmqzSmc8IATYOyQzqrN+gAzAEMAVwAbABdWbaykpq6D4-Pr272usFrd59PLm+2jyy3ySv1eN04626ggmDR6rAATiAoWtJAkkgl4KwaLIAF70AB29ARzDoEDA0DstAQkgwlQw8EkTHmUj68HZHOI4DJrFxyLR0P56MoVXxRJJYBorCu1HM1WoKXlCS4WGgAnypimKUqyAsOjmTT4lim3kgozlaMohz+b04PASoQVGygYntwVhdTtirKQsFoiRbqwgjdPsoKVdct22DgFSqokhXN2UN28aexRWfrEUJ9GdDYi+q0EsU0qeLRcwhZdSIzuQrSvAWPMVQzPzrOZA1vBjAu9EBWl6iyzArWXJLrCwsg9PujwvADfg6RAACV6ABnACWq6uJwJrXorAA9iU1ApqPoDAs4JZpjQ+CQzHkdOyjR5HyLj1KgA
 
 ## Visualização da placa
 
@@ -81,7 +81,7 @@ Simulação com componentes 3D
 ![3DComponentes](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dComponentes.png)
 
 [LED]: https://lista.mercadolivre.com.br/led-verde-5mm
-[resistor5k]: https://pt.aliexpress.com/item/1005002041218051.html?aem_p4p_detail=202107211533282465907643956900009483945
+[resistor1k]: https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html
 [transistor]: https://www.baudaeletronica.com.br/transistor-npn-bc548.html
 [potenciometro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
 [zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
