@@ -45,7 +45,7 @@ Em seguida, usamos um diodo zener para regular a tensão, removendo a oscilaçã
 
 O zener tem um limite de potência baixo, portanto o colocamos em série com um resitor de 1KΩ. Ele precisa de ao menos 13V para gerar a tensão de referência, portanto o resistor não pode consumir mais que 18.6 - 13 = 5.6V no pico e 15 - 13 = 2V no mínimo.
 
-Calculando a resistência para alcançar isso, temos 1K/x = 2/15 -> x = 7,5KΩ. Usamos um [potenciômetro] para controlar quanta dessa tensão chega ao transitor. O menor valor comercial que atendeu isso foi 10KΩ.
+Calculando a resistência para alcançar isso, temos 1K/x = 2/15 -> x = 7,5KΩ. Usamos um [potenciometro] para controlar quanta dessa tensão chega ao transitor. O menor valor comercial que atendeu isso foi 10KΩ.
 
 Colocamos ao final um LED em paralelo com o capacitor para indicar o funcionamento efetivo da fonte. Ele ficou em série com um resitor de 1K para não queimar.
 
