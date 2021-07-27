@@ -8,7 +8,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 
 | Nome | Especificação Básica | Valor |
 | :---: | :---: | :---: |
-| [transformador] | Entrada: 110V-220V / Saída: 20V 200 mA | R$35,00 |
+| [transformador] | Entrada: 110V-220V / Saída: 15V 200 mA | R$35,00 |
 | [Capacitor] | 470uF / 25V | R$0,43 |
 | [Diodo] | 50V / 1A | R$0,14 |
 | [zener] | 13V / 1W | R$0.20 |
@@ -19,7 +19,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 
 ## Fonte
 Para efeitos de cálculo, consideramos a carga máxima como 150mA, de modo a dar margem de segurança.  
-Primeiramente a fonte reduz a tensão de entrada que possui <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" title="127\times\sqrt{2}\approx180" /></a> de pico para uma tensão com 20v de pico, por meio de um [transformador]. Ele foi escolhido do [catálogo](http://www.transformadoreslider.com.br/catalogo/catalogo.pdf) por ser capaz de realizar a trasnformação desejada e aguentar 150mA de corrente.
+Primeiramente a fonte reduz a tensão de entrada que possui <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" title="127\times\sqrt{2}\approx180" /></a> de pico para uma tensão com 20v de pico, com 14.14v RMS, por meio de um [transformador]. Aprox Ele foi escolhido do [catálogo](http://www.transformadoreslider.com.br/catalogo/catalogo.pdf) por ser capaz de realizar a trasnformação desejada e aguentar 150mA de corrente.
 
 ![Imagem da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/tensaoAlternada127v.png)
 
@@ -85,7 +85,7 @@ Simulação com componentes 3D
 [transistor]: https://www.baudaeletronica.com.br/transistor-npn-bc548.html
 [potenciometro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
 [zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
-[transformador]: https://produto.mercadolivre.com.br/MLB-1337849996-transformador-terminais-110v220v-saida-20v-20v-200ma-_JM#position=7&search_layout=stack&type=item&tracking_id=9352b21c-9685-440a-ba31-5a1ffce72d90
+[transformador]: https://produto.mercadolivre.com.br/MLB-1957507011-transformador-7575v-200-mah-trafo-bivolt-tr-200-010-_JM#position=7&search_layout=stack&type=item&tracking_id=c0846338-8949-4e6d-a8f9-daf8cc474eb3
 [diodo]: https://www.baudaeletronica.com.br/diodo-1n4001.html
 [capacitor]: https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html
 [LED]: https://produto.mercadolivre.com.br/MLB-1800876382-led-verde-difuso-5mm-50-unidades-eletrnica-arduino-_JM?searchVariation=76603521533#searchVariation=76603521533&position=4&search_layout=grid&type=item&tracking_id=8625509a-484e-4233-9323-3cc655db2cc2
