@@ -37,7 +37,7 @@ Determinando a tensão mínima como sendo 15V, por segurança, achamos a capacit
 
 ![Forma de onda após filtro capacitivo](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/ripple.png) ![Imagen das contas](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/contasExp.png)
 
-Como 472uF não é um valor comercial, escolhemos um [capacitor] de 470uF, próximo o bastante e capaz de aguentar a voltagem necessária.
+Como 387uF não é um valor comercial, escolhemos um [capacitor] de 470uF, próximo o bastante e capaz de aguentar a voltagem necessária.
 
 Em seguida, usamos um diodo zener para regular a tensão, removendo a oscilação da onda descrita acima. Ele gera uma tensão de referência, porém não pode receber corrente demais. Tivemos que usar então um [transistor] bipolar NPN para controlar o fluxo de corrente. Como o transistor consome 0.7V, o zener precisa de ao mínimo 12 + 0.7 = 12.7V. O valor comercial mais próxmo é 13v, portanto esse foi o [zener] que usamos.
 
