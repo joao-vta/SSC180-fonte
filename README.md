@@ -19,7 +19,7 @@ Esse projeto descreve uma fonte de tensão que recebe como entrada 110v de tens�
 
 ## Fonte
 Para efeitos de cálculo, consideramos a carga máxima como 150mA, de modo a dar margem de segurança.  
-Primeiramente a fonte reduz a tensão de entrada que possui <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" title="127\times\sqrt{2}\approx180" /></a> de pico para uma tensão com 20v de pico, com 14.14v RMS, por meio de um [transformador]. Ele foi escolhido do [catálogo](http://www.transformadoreslider.com.br/catalogo/catalogo.pdf) por ser capaz de realizar a trasnformação desejada e aguentar 150mA de corrente.
+Primeiramente a fonte reduz a tensão de entrada que possui <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;127\times\sqrt{2}\approx180" title="127\times\sqrt{2}\approx180" /></a> de pico para uma tensão com 20v de pico, com 14.14v RMS, por meio de um [transformador]. Ele foi escolhido do [catálogo](http://www.transformadoreslider.com.br/catalogo/catalogo.pdf) por ser capaz de realizar uma trasnformação próxima da desejada e aguentar 150mA de corrente.
 
 ![Imagem da Tensão](https://raw.githubusercontent.com/joao-vta/SSC180-fonte/main/imagens/tensaoAlternada127v.png)
 
