@@ -86,6 +86,7 @@ Simulação com componentes 3D
 [potenciometro]: https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html
 [zener]: https://www.baudaeletronica.com.br/diodo-zener-1n4743-13v-1w.html
 [transformador]: https://produto.mercadolivre.com.br/MLB-1957507011-transformador-7575v-200-mah-trafo-bivolt-tr-200-010-_JM#position=7&search_layout=stack&type=item&tracking_id=c0846338-8949-4e6d-a8f9-daf8cc474eb3
+[1N4001]: https://www.baudaeletronica.com.br/diodo-1n4001.html
 [diodo]: https://www.baudaeletronica.com.br/diodo-1n4001.html
 [capacitor]: https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html
 [LED]: https://produto.mercadolivre.com.br/MLB-1800876382-led-verde-difuso-5mm-50-unidades-eletrnica-arduino-_JM?searchVariation=76603521533#searchVariation=76603521533&position=4&search_layout=grid&type=item&tracking_id=8625509a-484e-4233-9323-3cc655db2cc2
