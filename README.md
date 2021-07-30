@@ -65,20 +65,20 @@ https://www.youtube.com/watch?v=Rm_5-BxY0Ds
 Após a montagem, é o momento de simular o circuito no Eagle, para visualização do modelo 3d da placa.
 Montagem do circuito propriamente dita.
 
-![Circuito no Eagle](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/eagleCircuit.png)
+![Circuito no Eagle](https://github.com/joao-vta/SSC180-fonte/blob/a08ae99d520c5302623286aedacff9ecdc49ab1e/imagens/eagleCircuit.png)
 Montagem do circuito com componentes reais em 2d
 
-![Circuito PCB do Eagle](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/pcbModel.png)
+![Circuito PCB do Eagle](https://github.com/joao-vta/SSC180-fonte/blob/a08ae99d520c5302623286aedacff9ecdc49ab1e/imagens/pcbModel.png)
 
 Simulação do circuito e placa em 3D
 Parte da frente da placa
-![3DFrente](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dFrente.png)
+![3DFrente](https://github.com/joao-vta/SSC180-fonte/blob/a08ae99d520c5302623286aedacff9ecdc49ab1e/imagens/3dFrente.png)
 Parte traseira da placa
-![3DCostas](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dCostas.png)
+![3DCostas](https://github.com/joao-vta/SSC180-fonte/blob/a08ae99d520c5302623286aedacff9ecdc49ab1e/imagens/3dCostas.png)
 
 
 Simulação com componentes 3D
-![3DComponentes](https://github.com/joao-vta/SSC180-fonte/blob/351349429a73387252af06738ec40d6fc681eb72/imagens/3dComponentes.png)
+![3DComponentes](https://github.com/joao-vta/SSC180-fonte/blob/a08ae99d520c5302623286aedacff9ecdc49ab1e/imagens/3dComponentes.png)
 
 [LED]: https://lista.mercadolivre.com.br/led-verde-5mm
 [resistor1k]: https://www.baudaeletronica.com.br/resistor-1k-5-1-4w.html
